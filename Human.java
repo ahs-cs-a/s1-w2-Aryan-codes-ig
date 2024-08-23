@@ -21,8 +21,8 @@ public class Human {
     }
     
     public void printState(){
-        System.out.println("Name: " + name);
-        System.out.println("Eye Color: " + eyeColor);
+       System.out.println("Name: " + name);
+       System.out.println("Eye Color: " + eyeColor);
     }
  }
  
