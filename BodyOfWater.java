@@ -30,7 +30,7 @@ public class BodyOfWater{
         avgdDepth = a;
     }
          
-    public void setisSaltWater(boolean true){
+    public void setisSaltWater(boolean i){
         isSaltWater = i;
     }
     public String name(){
@@ -39,6 +39,12 @@ public class BodyOfWater{
 
     public int largestDiameter(){
         return largestDiameter;
+    }
+    public double avgDepth(){
+        return avgdDepth;
+    }
+    public boolean isSaltWater(){
+        return isSaltWater;
     }
 
 

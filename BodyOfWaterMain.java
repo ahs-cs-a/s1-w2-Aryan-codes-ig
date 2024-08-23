@@ -5,12 +5,17 @@ public class BodyOfWaterMain {
         BodyOfWater c = new BodyOfWater("Lake Tahoe", 1200.3);
 
 
-        b.setName("Pacific Ocean");
+        
 
 
         System.out.println(b.name());
         System.out.println(b.largestDiameter());
         System.out.println(b.avgDepth());
         System.out.println(b.isSaltWater());
+
+        b.setName("Pacific Ocean");
+        b.setlargestDiameter(1500);
+        System.out.println(b.name());
+        System.out.println(b.largestDiameter());
     }
 }
